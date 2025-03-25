@@ -32,11 +32,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17 18>;
-        };
-
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <1 0>;
@@ -70,10 +65,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &kp Q  &kp W  &kp E      &kp R                &kp T        &kp Y          &kp U  &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D      &kp F                &kp G        &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V                &kp B        &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp BSLH
-                              &kp LCTRL  &mt LEFT_GUI ESCAPE  &kp SPACE    &kp BACKSPACE  &sl 1  &mo 2
+                &kp Q  &kp W  &kp E      &kp R                &kp T        &kp Y          &kp U      &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D      &kp F                &kp G        &kp H          &kp J      &kp K      &kp L    &kp SEMICOLON
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V                &kp B        &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH       &kp BSLH
+                              &kp LCTRL  &mt LEFT_GUI ESCAPE  &kp SPACE    &kp BACKSPACE  &lt 1 RET  &mo 2
             >;
         };
 
