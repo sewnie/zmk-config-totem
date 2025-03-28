@@ -39,7 +39,7 @@
 
         combo_tilde {
             bindings = <&kp TILDE>;
-            key-positions = <10 11>;
+            key-positions = <16 17>;
         };
 
         combo_fn_layer {
