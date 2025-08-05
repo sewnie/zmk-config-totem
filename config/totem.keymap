@@ -49,7 +49,17 @@
 
         combo_screenshot {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <25 24 33>;
+            key-positions = <33 25 24>;
+        };
+
+        combo_vi_dollarsign {
+            bindings = <&kp DOLLAR>;
+            key-positions = <27 28 29>;
+        };
+
+        combo_vi_caret {
+            bindings = <&kp CARET>;
+            key-positions = <24 23 22>;
         };
     };
 
