@@ -61,6 +61,11 @@
             bindings = <&kp CARET>;
             key-positions = <24 23 22>;
         };
+
+        ctrlaltez {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <32 34>;
+        };
     };
 
     keymap {
