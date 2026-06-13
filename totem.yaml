@@ -159,7 +159,10 @@ layers:
 combos:
 - p: [1, 0]
   k: TAB
+  l: [base]
 - p: [16, 17]
   k: '~'
+  l: [base]
 - p: [24, 23, 22]
   k: PRINTSCREEN
+  l: [base]
