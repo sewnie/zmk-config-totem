@@ -36,16 +36,19 @@
         thru {
             bindings = <&kp TAB>;
             key-positions = <1 0>;
+            layers = <0>;
         };
 
         home {
             bindings = <&kp TILDE>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         shot {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <24 23 22>;
+            layers = <0>;
         };
     };
 
